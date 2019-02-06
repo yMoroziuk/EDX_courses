@@ -1,0 +1,28 @@
+F:\Education\c#\ASP.Net\TestDbMigration\TestDbMigration\bin\Debug\netcoreapp2.2\TestDbMigration.deps.json
+F:\Education\c#\ASP.Net\TestDbMigration\TestDbMigration\bin\Debug\netcoreapp2.2\TestDbMigration.runtimeconfig.json
+F:\Education\c#\ASP.Net\TestDbMigration\TestDbMigration\bin\Debug\netcoreapp2.2\TestDbMigration.runtimeconfig.dev.json
+F:\Education\c#\ASP.Net\TestDbMigration\TestDbMigration\bin\Debug\netcoreapp2.2\TestDbMigration.dll
+F:\Education\c#\ASP.Net\TestDbMigration\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.csprojAssemblyReference.cache
+F:\Education\c#\ASP.Net\TestDbMigration\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.csproj.CoreCompileInputs.cache
+F:\Education\c#\ASP.Net\TestDbMigration\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.RazorAssemblyInfo.cache
+F:\Education\c#\ASP.Net\TestDbMigration\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.RazorAssemblyInfo.cs
+F:\Education\c#\ASP.Net\TestDbMigration\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.AssemblyInfoInputs.cache
+F:\Education\c#\ASP.Net\TestDbMigration\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.AssemblyInfo.cs
+F:\Education\c#\ASP.Net\TestDbMigration\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.RazorTargetAssemblyInfo.cache
+F:\Education\c#\ASP.Net\TestDbMigration\TestDbMigration\bin\Debug\netcoreapp2.2\TestDbMigration.pdb
+F:\Education\c#\ASP.Net\TestDbMigration\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.dll
+F:\Education\c#\ASP.Net\TestDbMigration\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.pdb
+F:\Education\c#\EDX\edx_tests\task6_Create Controller for the Given Client\TestDbMigration\bin\Debug\netcoreapp2.2\TestDbMigration.deps.json
+F:\Education\c#\EDX\edx_tests\task6_Create Controller for the Given Client\TestDbMigration\bin\Debug\netcoreapp2.2\TestDbMigration.runtimeconfig.json
+F:\Education\c#\EDX\edx_tests\task6_Create Controller for the Given Client\TestDbMigration\bin\Debug\netcoreapp2.2\TestDbMigration.runtimeconfig.dev.json
+F:\Education\c#\EDX\edx_tests\task6_Create Controller for the Given Client\TestDbMigration\bin\Debug\netcoreapp2.2\TestDbMigration.dll
+F:\Education\c#\EDX\edx_tests\task6_Create Controller for the Given Client\TestDbMigration\bin\Debug\netcoreapp2.2\TestDbMigration.pdb
+F:\Education\c#\EDX\edx_tests\task6_Create Controller for the Given Client\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.csprojAssemblyReference.cache
+F:\Education\c#\EDX\edx_tests\task6_Create Controller for the Given Client\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.csproj.CoreCompileInputs.cache
+F:\Education\c#\EDX\edx_tests\task6_Create Controller for the Given Client\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.RazorAssemblyInfo.cache
+F:\Education\c#\EDX\edx_tests\task6_Create Controller for the Given Client\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.RazorAssemblyInfo.cs
+F:\Education\c#\EDX\edx_tests\task6_Create Controller for the Given Client\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.AssemblyInfoInputs.cache
+F:\Education\c#\EDX\edx_tests\task6_Create Controller for the Given Client\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.AssemblyInfo.cs
+F:\Education\c#\EDX\edx_tests\task6_Create Controller for the Given Client\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.RazorTargetAssemblyInfo.cache
+F:\Education\c#\EDX\edx_tests\task6_Create Controller for the Given Client\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.dll
+F:\Education\c#\EDX\edx_tests\task6_Create Controller for the Given Client\TestDbMigration\obj\Debug\netcoreapp2.2\TestDbMigration.pdb

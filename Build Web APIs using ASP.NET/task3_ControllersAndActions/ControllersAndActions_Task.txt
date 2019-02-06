@@ -1,0 +1,181 @@
+
+Open the project root folder (WebServer) with Visual Studio Code.
+Click the main menu View | Explorer or use shortcut key Ctrl+Shift+E to show the Explorer panel. You will see the project folder name WEBSERVER on the expandable tab bar.
+Click the New Folder icon and name the folder Models.
+Select the Models folder
+click the New File icon and name the file Product.cs.
+Double click to open the Product.cs declare the model class as below:
+namespace WebServer.Models {
+    public class Product {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public double Price { get; set; }
+    }
+}
+To simulate the database operations, please add the FakeData class below the Product class:
+
+public class FakeData {
+    public static IDictionary<int, Product> Products;
+    static FakeData() {
+        Products = new Dictionary<int, Product>();
+        Products.Add(0, new Product { ID = 0, Name = "Apple", Price = 5.55 });
+        Products.Add(1, new Product { ID = 1, Name = "Bike", Price = 6.66 });
+        Products.Add(2, new Product { ID = 2, Name = "Coffee", Price = 7.77 });
+    }
+}
+Create the Controller
+Click the Controllers folder in the Explorer, it will be selected.
+Click the New File icon and name the file ProductsController.cs. Please remember the naming convention of the controllers - use a plural noun and the Controller suffix.
+Open the ProductsController.cs and declare an empty controller class named ProductsController as below:
+namespace WebServer.Controllers {
+
+    [Route("api/[controller]")]
+    public class ProductsController : Controller {
+        // Add actions here
+    }
+}
+Please note, since this course requires familiarity with C#, all using directions are omitted.
+
+Add Action for HTTP GET Request
+To respond to the HTTP GET request of querying all products, please add the method below to the controller class body:
+
+[HttpGet]
+public Product[] Get() {
+    return FakeData.Products.Values.ToArray();
+}
+Please note, since we modify the action with [HttpGet], all HTTP GET requests will be routed to this action regardless of what the action's name is. For example, you can change the action to:
+
+[HttpGet]
+public Product[] GetAllProducts() {
+    return FakeData.Products.Values.ToArray();
+}
+It still works fine and renaming it can help improve the readability if used wisely.
+
+To respond the HTTP GET request of querying a single product by ID, the action will be:
+
+[HttpGet("{id}")]
+public Product Get(int id) {
+    if (FakeData.Products.ContainsKey(id))
+        return FakeData.Products[id];
+    else
+        return null;
+}
+You can also use GetProductByID as the action name to improve the readability.
+
+Add Action for HTTP POST Request
+The purpose of an HTTP POST request is to add a new product to the server. The action will look like:
+
+[HttpPost]
+public Product Post([FromBody]Product product) {
+    product.ID = FakeData.Products.Keys.Max() + 1;
+    FakeData.Products.Add(product.ID, product);
+    return product; // contains the new ID
+}
+Please note:
+
+To ensure we always add a new product, we generate a new ID for each product
+We return the product that contains the new ID, this makes the client aware of it
+You can use CreateProduct as the action name to improve readability
+Add an Action for the HTTP PUT Request
+The purpose of an HTTP PUT request is to update an existing project. If the product doesn't exist it will do nothing. So, the action will look like:
+
+[HttpPut("{id}")]
+public void Put(int id, [FromBody]Product product) {
+    if (FakeData.Products.ContainsKey(id)) {
+        var target = FakeData.Products[id];
+        target.ID = product.ID;
+        target.Name = product.Name;
+        target.Price = product.Price;
+    }
+}
+Please note:
+
+Placing the ID in the URL of HTTP PUT request is a rule of REST design
+It's a design rule that the Put action doesn't return a value
+So far the client won't know if the update is successful. In the future, we will learn how to use Ok and NotFound methods to inform the client of status
+You can use UpdateProductByID as the action name to improve the readability
+Add an Action for an HTTP DELETE Request
+The purpose of an HTTP DELETE request is to delete the product with a matching ID. If the product does not exist, the action does nothing. The action will be:
+
+[HttpDelete("{id}")]
+public void Delete(int id) {
+    if (FakeData.Products.ContainsKey(id)) {
+        FakeData.Products.Remove(id);
+    }
+}
+Please note:
+
+It's a design rule that the Delete action doesn't return a value
+So far, the client won't know if the update is successful. In the future, we will learn how to use Ok and NotFound methods to inform the client of the status
+You can use DeleteProductByID as the action name to improve the readability
+
+Test the Controller and Actions
+In Visual Studio Code, switch to the Debug panel (View | Debug or Ctrl+Shift+D).
+Click the green triangle icon (Start Debugging) to run the application in debug mode.
+HTTP GET Test
+You should already have Postman installed so start Postman.
+Send a GET request to http://localhost:5000/api/products, you will get all products returned back.
+There are two things you should pay attention:
+The response status is 200 OK
+The returned value is an array of Product objects
+[
+  {
+    "id": 0,
+    "name": "Apple",
+    "price": 5.55
+  },
+  {
+    "id": 1,
+    "name": "Bike",
+    "price": 6.66
+  },
+  {
+    "id": 2,
+    "name": "Coffee",
+    "price": 7.77
+  }
+]
+Send another GET request to http://localhost:5000/api/products/2, you will get a single product returned back, the status is 200 OK.
+
+Now, send a GET request to http://localhost:5000/api/products/101, you will get nothing, the status is 204 No Content.
+
+HTTP POST Test
+Send a POST request to http://localhost:5000/api/products with the JSON object below in the body:
+{
+  "name": "Duck",
+  "price": 8.88
+}
+You will get the JSON object below returned:
+
+{
+  "id": 3,
+  "name": "Duck",
+  "price": 8.88
+}
+Please note:
+
+To add the JSON object to the request body, click the Body tab just below the URL text box, check the raw radio button, in the dropdown list at the end of the row select JSON (application/json)
+You don't need to provide the ID, the ID will be generated on the server side
+The status is 200 OK. In the future we will return a better status 201 Created
+HTTP PUT Test
+Send a PUT request to http://localhost:5000/api/products/3 with the JSON object below in the body:
+{
+  "id": 3,
+  "name": "Diamond",
+  "price" : 99999.9
+}
+You will get the status 200 OK.
+Send a GET request to http://localhost:5000/api/products/3 (same URL), you will get the return value:
+{
+  "id": 3,
+  "name": "Diamond",
+  "price": 99999.9
+}
+HTTP DELETE Test
+Send a DELETE request to http://localhost:5000/api/products/0.
+You will get status 200 OK.
+Send a GET request to http://localhost:5000/api/products/0 (same URL), you will get 204 No Content.
+
+Send a DELETE request to http://localhost:5000/api/products/0 again
+
+You will still get status 200 OK which does not reflect reality in our data source. In the future we will update the action to return the status 404 Not Found.
