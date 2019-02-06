@@ -1,0 +1,14 @@
+F:\Education\c#\EDX\edx_tests\task2_PracticeWithControllers\WebServer\bin\Debug\netcoreapp2.2\WebServer.deps.json
+F:\Education\c#\EDX\edx_tests\task2_PracticeWithControllers\WebServer\bin\Debug\netcoreapp2.2\WebServer.runtimeconfig.json
+F:\Education\c#\EDX\edx_tests\task2_PracticeWithControllers\WebServer\bin\Debug\netcoreapp2.2\WebServer.runtimeconfig.dev.json
+F:\Education\c#\EDX\edx_tests\task2_PracticeWithControllers\WebServer\bin\Debug\netcoreapp2.2\WebServer.dll
+F:\Education\c#\EDX\edx_tests\task2_PracticeWithControllers\WebServer\bin\Debug\netcoreapp2.2\WebServer.pdb
+F:\Education\c#\EDX\edx_tests\task2_PracticeWithControllers\WebServer\obj\Debug\netcoreapp2.2\WebServer.csprojAssemblyReference.cache
+F:\Education\c#\EDX\edx_tests\task2_PracticeWithControllers\WebServer\obj\Debug\netcoreapp2.2\WebServer.csproj.CoreCompileInputs.cache
+F:\Education\c#\EDX\edx_tests\task2_PracticeWithControllers\WebServer\obj\Debug\netcoreapp2.2\WebServer.RazorAssemblyInfo.cache
+F:\Education\c#\EDX\edx_tests\task2_PracticeWithControllers\WebServer\obj\Debug\netcoreapp2.2\WebServer.RazorAssemblyInfo.cs
+F:\Education\c#\EDX\edx_tests\task2_PracticeWithControllers\WebServer\obj\Debug\netcoreapp2.2\WebServer.AssemblyInfoInputs.cache
+F:\Education\c#\EDX\edx_tests\task2_PracticeWithControllers\WebServer\obj\Debug\netcoreapp2.2\WebServer.AssemblyInfo.cs
+F:\Education\c#\EDX\edx_tests\task2_PracticeWithControllers\WebServer\obj\Debug\netcoreapp2.2\WebServer.RazorTargetAssemblyInfo.cache
+F:\Education\c#\EDX\edx_tests\task2_PracticeWithControllers\WebServer\obj\Debug\netcoreapp2.2\WebServer.dll
+F:\Education\c#\EDX\edx_tests\task2_PracticeWithControllers\WebServer\obj\Debug\netcoreapp2.2\WebServer.pdb
