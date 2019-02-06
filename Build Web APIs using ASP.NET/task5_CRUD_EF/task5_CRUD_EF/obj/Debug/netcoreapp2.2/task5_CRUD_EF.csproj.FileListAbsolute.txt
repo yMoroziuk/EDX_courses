@@ -1,0 +1,14 @@
+F:\Education\c#\EDX\edx_tests\task5_CRUD_EF\task5_CRUD_EF\bin\Debug\netcoreapp2.2\task5_CRUD_EF.deps.json
+F:\Education\c#\EDX\edx_tests\task5_CRUD_EF\task5_CRUD_EF\bin\Debug\netcoreapp2.2\task5_CRUD_EF.runtimeconfig.json
+F:\Education\c#\EDX\edx_tests\task5_CRUD_EF\task5_CRUD_EF\bin\Debug\netcoreapp2.2\task5_CRUD_EF.runtimeconfig.dev.json
+F:\Education\c#\EDX\edx_tests\task5_CRUD_EF\task5_CRUD_EF\bin\Debug\netcoreapp2.2\task5_CRUD_EF.dll
+F:\Education\c#\EDX\edx_tests\task5_CRUD_EF\task5_CRUD_EF\obj\Debug\netcoreapp2.2\task5_CRUD_EF.csprojAssemblyReference.cache
+F:\Education\c#\EDX\edx_tests\task5_CRUD_EF\task5_CRUD_EF\obj\Debug\netcoreapp2.2\task5_CRUD_EF.csproj.CoreCompileInputs.cache
+F:\Education\c#\EDX\edx_tests\task5_CRUD_EF\task5_CRUD_EF\obj\Debug\netcoreapp2.2\task5_CRUD_EF.RazorAssemblyInfo.cache
+F:\Education\c#\EDX\edx_tests\task5_CRUD_EF\task5_CRUD_EF\obj\Debug\netcoreapp2.2\task5_CRUD_EF.RazorAssemblyInfo.cs
+F:\Education\c#\EDX\edx_tests\task5_CRUD_EF\task5_CRUD_EF\obj\Debug\netcoreapp2.2\task5_CRUD_EF.AssemblyInfoInputs.cache
+F:\Education\c#\EDX\edx_tests\task5_CRUD_EF\task5_CRUD_EF\obj\Debug\netcoreapp2.2\task5_CRUD_EF.AssemblyInfo.cs
+F:\Education\c#\EDX\edx_tests\task5_CRUD_EF\task5_CRUD_EF\obj\Debug\netcoreapp2.2\task5_CRUD_EF.RazorTargetAssemblyInfo.cache
+F:\Education\c#\EDX\edx_tests\task5_CRUD_EF\task5_CRUD_EF\bin\Debug\netcoreapp2.2\task5_CRUD_EF.pdb
+F:\Education\c#\EDX\edx_tests\task5_CRUD_EF\task5_CRUD_EF\obj\Debug\netcoreapp2.2\task5_CRUD_EF.dll
+F:\Education\c#\EDX\edx_tests\task5_CRUD_EF\task5_CRUD_EF\obj\Debug\netcoreapp2.2\task5_CRUD_EF.pdb
