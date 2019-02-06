@@ -1,0 +1,36 @@
+Serialization and Deserialization
+Overview
+The purpose of this lab is to help students understand JSON as a universal data exchange format that can be used to transfer data between applications written in different programming languages. For example, the developer can serialize the data object to a JSON string in a C# application then deserialize that JSON string back to a data object in a JavaScript application or vice versa.
+
+Prerequisites
+.NET Core CLI 1.0.1 installed
+Visual Studio Code installed
+Task 1
+Given the following C# class
+
+class Product
+{
+    public int ID { get; set; }
+    public string Name { get; set; }
+    public double Price { get; set; }
+}
+
+Write a .NET Core C# application
+Create a Product type object
+Serialize the object to JSON string
+Deserialize the JSON string back to a Product type object.
+
+Task 2
+Given the following JavaScript object
+
+	var p1 = { id: 101, name: 'Product-101', price: 99 };
+
+Create a JavaScript application within a simple HTML page
+Serialize the data object to a JSON string
+Deserialize the JSON string back to a data object
+
+Task 3
+Since the C# object and JavaScript share the same set of properties, their JSON serialization are exchangeable. Can you prove this assumption? Your task here is to serialize an object in C# and then deserialize that string back to a JavaScript object.
+
+Hint
+You can create your C# application to serialize the object and then copy and paste that string into your JavaScript application.

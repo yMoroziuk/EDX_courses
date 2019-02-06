@@ -1,0 +1,11 @@
+F:\Education\c#\EDX\edx_tests\task1_SerDesr\SeDes\bin\Debug\netcoreapp2.2\SeDes.deps.json
+F:\Education\c#\EDX\edx_tests\task1_SerDesr\SeDes\bin\Debug\netcoreapp2.2\SeDes.runtimeconfig.json
+F:\Education\c#\EDX\edx_tests\task1_SerDesr\SeDes\bin\Debug\netcoreapp2.2\SeDes.runtimeconfig.dev.json
+F:\Education\c#\EDX\edx_tests\task1_SerDesr\SeDes\bin\Debug\netcoreapp2.2\SeDes.dll
+F:\Education\c#\EDX\edx_tests\task1_SerDesr\SeDes\bin\Debug\netcoreapp2.2\SeDes.pdb
+F:\Education\c#\EDX\edx_tests\task1_SerDesr\SeDes\obj\Debug\netcoreapp2.2\SeDes.csprojAssemblyReference.cache
+F:\Education\c#\EDX\edx_tests\task1_SerDesr\SeDes\obj\Debug\netcoreapp2.2\SeDes.csproj.CoreCompileInputs.cache
+F:\Education\c#\EDX\edx_tests\task1_SerDesr\SeDes\obj\Debug\netcoreapp2.2\SeDes.AssemblyInfoInputs.cache
+F:\Education\c#\EDX\edx_tests\task1_SerDesr\SeDes\obj\Debug\netcoreapp2.2\SeDes.AssemblyInfo.cs
+F:\Education\c#\EDX\edx_tests\task1_SerDesr\SeDes\obj\Debug\netcoreapp2.2\SeDes.dll
+F:\Education\c#\EDX\edx_tests\task1_SerDesr\SeDes\obj\Debug\netcoreapp2.2\SeDes.pdb

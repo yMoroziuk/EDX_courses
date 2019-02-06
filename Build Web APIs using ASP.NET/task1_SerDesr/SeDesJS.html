@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<meta charset="utf-8">
+	<title>SeDes</title>
+	<script>
+		var p1 = { ID: 101, Name: 'Product-101', Price: 99 };
+
+		var jsonStrCS = '[{"ID":101,"Name":"Pelmeni","Price":100.0},{"ID":104,"Name":"Vareniki","Price":72.0},{"ID":203,"Name":"Kefir","Price":32.0}]'
+		// Serialization
+		var jsonStr = JSON.stringify(p1);
+		
+		document.write(jsonStr);
+		document.write('</br>');
+		document.write("========================");
+		document.write('</br>');
+		
+		// Deserialization
+		var objects = JSON.parse(jsonStrCS)
+		for(var i in objects)
+		{
+			document.write("ID:" + objects[i].ID + " Name:" + objects[i].Name + " Price:" + objects[i].Price)
+			document.write("<br/>")
+		}
+	</script>
+</header>
+<html>	
